@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Model weights and vector DB — do NOT commit these
+data/
+*.gguf
+*.bin
+
+# Input audio (may contain PII)
+input/investor_sample.mp3
+
+# Outputs (generated at runtime)
+output/
+
+# OS
+.DS_Store
+Thumbs.db
